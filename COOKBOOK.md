@@ -1,6 +1,6 @@
 # Flash serving cookbook
 
-Status: local draft, based on the October 5, 2026 isolated campaign. Production wasn't changed. Commands and values below describe measurement and reproduction boundaries, not a qualified deployment.
+Based on the October 5, 2026 isolated campaign. Production wasn't changed. Commands and values below describe measurement and reproduction boundaries, not a qualified deployment.
 
 ## 1. Freeze the reproduction target
 
