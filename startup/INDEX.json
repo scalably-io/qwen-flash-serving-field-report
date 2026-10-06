@@ -1,0 +1,178 @@
+[
+  {
+    "recipe": "bee-common-stress-process-config.json",
+    "source_sha256": "9b8c67a4915a0ecc12913d8c399f96a230197b88e4a28063401229976e0f253c"
+  },
+  {
+    "recipe": "bee-slots2-clean-process-config.json",
+    "source_sha256": "8f6a8e54e91121ee74718f4a35fef2fcaaa4512243af7d3b79a4427adbf20da0"
+  },
+  {
+    "recipe": "bee-slots2-process-config.json",
+    "source_sha256": "e0813b568302f269e389b9aaeafd61ccaba9afc452e29dae70505814c392bad9"
+  },
+  {
+    "recipe": "bee-slots4-clean-process-config.json",
+    "source_sha256": "0f6b740b5c2d2eb7ee207f88c4405241395b02d4d1f89b9957080cbb91f95854"
+  },
+  {
+    "recipe": "bee-slots4-process-config.json",
+    "source_sha256": "5739e6f11df60c152d2981cf853b8471e1c414473a6ad5260cf72135c53a35ec"
+  },
+  {
+    "recipe": "free-base-tp2-process-config.json",
+    "source_sha256": "f917339cbdcfc1ce06857f2fe8fa0b54a2e2f8a83a1f6c6a1d41f7f0a40b909a"
+  },
+  {
+    "recipe": "free-base-tp2-ready-process-config.json",
+    "source_sha256": "0dd93d31962a6648c6413d32b603979009ff7c50a6a6e23634c691ca7ab764bd"
+  },
+  {
+    "recipe": "free-common-stress-process-config.json",
+    "source_sha256": "8b13819a4aaf341c3e55b5d1fda5662d135f9c67324a6c5ba8c86719237bd4f5"
+  },
+  {
+    "recipe": "free-hybrid-tp2-process-config.json",
+    "source_sha256": "097546f8b76f0d9cbdc83aefa1361dd801e5b7f89991aab3ac3443aef405e1a8"
+  },
+  {
+    "recipe": "free-hybrid-tp2-ready-process-config.json",
+    "source_sha256": "827e16c744f75f20241b82a23ae1f7de979be14f438b869b4919ab16b29cb3fc"
+  },
+  {
+    "recipe": "free-single-b12x-p393-process-config.json",
+    "source_sha256": "160d1263b842358837330332e3aeba5453ac6548b81ea313016ef6b711f59fed"
+  },
+  {
+    "recipe": "free-single-b12x-p524-process-config.json",
+    "source_sha256": "827e16c744f75f20241b82a23ae1f7de979be14f438b869b4919ab16b29cb3fc"
+  },
+  {
+    "recipe": "free-single-process-config.json",
+    "source_sha256": "04c5bd5f8a60f1e0bd0e49712b57a8c0a386553f84ac87bf16b96ade0d1a1e8c"
+  },
+  {
+    "recipe": "free-single-ready-process-config.json",
+    "source_sha256": "4a91fa425ba0afccabced2e5151ba5b2957ea603fbabf6a05035312b3c30ceba"
+  },
+  {
+    "recipe": "frozen-final-repeat-process-config.json",
+    "source_sha256": "5a1f6cf50e6ff4be8a07c91b19041ee6304a6ca8f77dbe880ab623f4f200350a"
+  },
+  {
+    "recipe": "ik-lossless-slots1-process-config.json",
+    "source_sha256": "63261c7dadb03d8502163e52b601a4ef9de96b3952d9085162cf48dbd2dca36f"
+  },
+  {
+    "recipe": "ik-slots2-clean-process-config.json",
+    "source_sha256": "0974bb1b287c7a20d7bf1aad1b73b0ed27eaaa1eb2d9318cccb219414cc72a48"
+  },
+  {
+    "recipe": "ik-slots2-port18086-process-config.json",
+    "source_sha256": "f607219643ce7cf451434f5614a8cce101538a61ffd6ebc2d774f8515328f648"
+  },
+  {
+    "recipe": "ik-slots2-process-config.json",
+    "source_sha256": "adb724256ad4038669cd21129cef2397d0fa0a7429bcaba8fa55a0c40ea6d20b"
+  },
+  {
+    "recipe": "ik-slots4-clean-process-config.json",
+    "source_sha256": "ca2d461682960aad7471d49e4fcec9dc80c2981002f5d0f64ec7d867b28d36e9"
+  },
+  {
+    "recipe": "ik-slots4-port18086-process-config.json",
+    "source_sha256": "00f6aed59028decafa926eea0cfe5649aa11b3419cd0179f3bf81dae5df54e94"
+  },
+  {
+    "recipe": "ik-slots4-process-config.json",
+    "source_sha256": "47462f505f504a7dbfb53e68619b00e404863dc18bf714474611ae33d508d937"
+  },
+  {
+    "recipe": "llama-common-stress-process-config.json",
+    "source_sha256": "06a75a9733ae47c0095efb7c9670399d64f088618229df525f3f13b2e07ffd1e"
+  },
+  {
+    "recipe": "llama-slots2-clean-process-config.json",
+    "source_sha256": "e88dce6ed69ee358c23c2b4dec0841c8bf3d303e407f8bb9f42186aba81337d4"
+  },
+  {
+    "recipe": "llama-slots2-process-config.json",
+    "source_sha256": "17f8a012433d36d62ceaf8cb383d95bf6575c4d2761681b2e7734bbe1eb73489"
+  },
+  {
+    "recipe": "llama-slots4-clean-process-config.json",
+    "source_sha256": "dfac7ef8c71664e224da4ef611d4b7fa88456c3f64a27cdee4ab1c87685a9dea"
+  },
+  {
+    "recipe": "llama-slots4-process-config.json",
+    "source_sha256": "00f950fd8efbc9b162f09e07cba4cfaa3eab5cee791c35d8816ce8c55fbf9308"
+  },
+  {
+    "recipe": "llama-slots4-ub128-balanced-process-config.json",
+    "source_sha256": "8b2c4d4354c0aacee2052fc3335aa152ed626054d0b9c3621f9ca7bbf11e0dc0"
+  },
+  {
+    "recipe": "ninfer-base-process-config.json",
+    "source_sha256": "800a6b527e6b78d1605720e83c466512b5567b5f2af23ad7d138230b5f4d1c02"
+  },
+  {
+    "recipe": "ninfer-common-stress-process-config.json",
+    "source_sha256": "0efa20eabfbce6f02a833fb86d8e5f4f9ae608c64d3bad356b55fc091b6c077f"
+  },
+  {
+    "recipe": "ninfer-depth5-process-config.json",
+    "source_sha256": "7d2de25f59a61157d1db64e0c6aba24d052da7caf698edcd8c74d234b070a90c"
+  },
+  {
+    "recipe": "ninfer-k8v4-process-config.json",
+    "source_sha256": "7a3cebff929e3961d89b12def884eac346bf870c0eca7d6841a0f03136bbdf56"
+  },
+  {
+    "recipe": "ninfer-off-process-config.json",
+    "source_sha256": "2c81ff9286ce2f436250adb6a43ffd6684fbfe28e580a051017d4c22a6afa0d8"
+  },
+  {
+    "recipe": "ninfer-small-fp8-d3-process-config.json",
+    "source_sha256": "cec90717c965f91684c1019c7c4a1894601bd2206571a178a47a8ee74413b1b8"
+  },
+  {
+    "recipe": "ninfer-small-fp8-d5-process-config.json",
+    "source_sha256": "8787f5dfa504b7ad35a31f88de77ecde7d612f07542a2ddd14a93280f136957e"
+  },
+  {
+    "recipe": "strata-b4-process-config.json",
+    "source_sha256": "88ab1a58308e9a63ea4feae4666e79c318a9d73d7958884a2d7ff31843a7da77"
+  },
+  {
+    "recipe": "strata-int8-process-config.json",
+    "source_sha256": "cff16ccdeb0fe8b6b569960153d2711fb0a469c0ea1e03efb25f05650e181632"
+  },
+  {
+    "recipe": "strata-mmap-serial-process-config.json",
+    "source_sha256": "167d7994d2e63a7027c4e5435fe5f5df59aff45800724c992ec813140c86c42a"
+  },
+  {
+    "recipe": "strata-mmap4-process-config.json",
+    "source_sha256": "134e3c8c5ee53f4334f1248f7af1942f7e981b6b8a5a9692affc0fee5c4f4acc"
+  },
+  {
+    "recipe": "strata-mmap8-process-config.json",
+    "source_sha256": "23e27bb136d6071985596b616955eb3927e61515c7fe8191cbb714efd4883b42"
+  },
+  {
+    "recipe": "strata-pin8-b4-process-config.json",
+    "source_sha256": "7186f636fc8a3275048c977aca20ef53e3830866b3509e43fc6039dc4a62e32c"
+  },
+  {
+    "recipe": "strata-pin8-b8-process-config.json",
+    "source_sha256": "2faa0fbff37be7041399b6d060806931dba5af3837aa4c8ea96a00565f563fbf"
+  },
+  {
+    "recipe": "strata-pipeline8-process-config.json",
+    "source_sha256": "1558b91b8b3df0ea68033c0be6c9411065f4a1564645253fcb81b3e560b386cc"
+  },
+  {
+    "recipe": "tuned-exl-b5-p819-process-config.json",
+    "source_sha256": "6b0220f52ab5719bb397faddb7527886975e55584f0db9c9ce434ae3d836c5ec"
+  }
+]

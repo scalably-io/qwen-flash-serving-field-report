@@ -1,0 +1,26 @@
+{
+  "name": "strata-mmap8",
+  "command": [
+    "<BENCH_ROOT>/free-venv/bin/python",
+    "-m",
+    "serve.server",
+    "--engine",
+    "strata",
+    "--config",
+    "<BENCH_ROOT>/configs/strata-mmap8-strata.json",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18082"
+  ],
+  "cwd": "<BENCH_ROOT>/strata",
+  "url": "http://127.0.0.1:18082/v1",
+  "startup_timeout": 240,
+  "knobs": {
+    "expert_source": "mmap publishedGGUF",
+    "CPU_arena": "avoided",
+    "batch": 8,
+    "kv": "int8 streaming32768"
+  },
+  "status_boundary": "Recorded startup recipe. Inclusion does not establish readiness, API support, completed measurement or production qualification."
+}

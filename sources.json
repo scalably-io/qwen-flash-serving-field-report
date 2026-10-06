@@ -1,0 +1,46 @@
+{
+  "measurement_date": "2026-10-05",
+  "scope": "Measured identities and config subsets; not a qualified launch config",
+  "tabby_commit": "53da7919d4e45c63f4acbcbbc00cbe0f60a1ce65",
+  "recipe_commit": "af2c4b841678a996632bf8e6bbd719aea66b823d",
+  "strata_commit": "6f32ec070f23ced9f50e704d854d775da52591ab",
+  "model_repository": "r0b0tlab/Qwen3.8-Flash-Next-EXL3-2.50bpw",
+  "model_revision": "61a1a139ef2411ed6ed5717acfaff288511a1b08",
+  "exl_tree_commit": "5783a9360b749a1d5bde6862dc35e7766e542ca1",
+  "exl_tree_source": "Pinned recipe docker/overlays/rebase-dev-r3/prepare-tree.sh, independently checked October 6, 2026",
+  "exl_base_wheel": "exllamav3-1.5.0+cu128.torch2.9.0-cp312-cp312-linux_x86_64.whl",
+  "exl_base_wheel_sha256": "d8f5b483ca882c52d79a73c059b508c666663a68b4c60e420ca489e654e8104a",
+  "runtime_boundary": "Recipe rebase-dev-r3 tree replacement, extension rebuild, then recipe overlays; bare wheel is insufficient",
+  "challenger_sources": [
+    {
+      "engine": "ninfer-ext",
+      "repository": "https://github.com/giveen/ninfer-ext",
+      "commit": "dec3c44d8b363f8189b06b249428480c39f44d83"
+    },
+    {
+      "engine": "strata",
+      "repository": "https://github.com/Niko1221/Strata",
+      "commit": "6f32ec070f23ced9f50e704d854d775da52591ab"
+    },
+    {
+      "engine": "FreeToken",
+      "repository": "https://github.com/FlashML-org/FreeToken",
+      "commit": "189c8ad0c3350e30252209d40780274976cb7527"
+    },
+    {
+      "engine": "llama",
+      "repository": "https://github.com/ggml-org/llama.cpp",
+      "commit": "3cf03257f219afbe7334045ff7c6a06ac68c627d"
+    },
+    {
+      "engine": "ik",
+      "repository": "https://github.com/ikawrakow/ik_llama.cpp",
+      "commit": "110245a967cdce350165dc8a1ad05cd220b25c82"
+    },
+    {
+      "engine": "bee",
+      "repository": "https://github.com/Anbeeld/beellama.cpp",
+      "commit": "58a1629274d8d74ea5a6acf34f30fb5946c2422b"
+    }
+  ]
+}

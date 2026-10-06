@@ -1,0 +1,28 @@
+{
+  "name": "strata-mmap-serial",
+  "command": [
+    "<BENCH_ROOT>/free-venv/bin/python",
+    "-m",
+    "serve.server",
+    "--engine",
+    "strata",
+    "--config",
+    "<BENCH_ROOT>/configs/strata-mmap-serial-strata.json",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "18082"
+  ],
+  "cwd": "<BENCH_ROOT>/strata",
+  "url": "http://127.0.0.1:18082/v1",
+  "startup_timeout": 240,
+  "knobs": {
+    "expert_source": "mmap published GGUF",
+    "batch": 0,
+    "active_decode_max": 1,
+    "queue": "serial",
+    "kv": "int8 resident32768",
+    "context_reserve": 8
+  },
+  "status_boundary": "Recorded startup recipe. Inclusion does not establish readiness, API support, completed measurement or production qualification."
+}

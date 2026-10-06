@@ -1,0 +1,56 @@
+{
+  "repo": "r0b0tlab/Qwen3.8-Flash-Next-EXL3-2.50bpw",
+  "revision": "61a1a139ef2411ed6ed5717acfaff288511a1b08",
+  "files": [
+    {
+      "file": "model-00001-of-00006.safetensors",
+      "bytes": 8440963959,
+      "sha256": "918a35fe09019806c387f44fa25edd860b10d95e2fe2a16cec9a84040abf0fe3"
+    },
+    {
+      "file": "model-00002-of-00006.safetensors",
+      "bytes": 8569791510,
+      "sha256": "a87dd1890b60707452b286d2a949663e7fbf8150c041289fe2425857b538a29d"
+    },
+    {
+      "file": "model-00003-of-00006.safetensors",
+      "bytes": 8398539076,
+      "sha256": "18f2aa17a77b17c9aa4f9cf2b3238b777b4f1e28d5f5047b506b1e80a6a2d3f1"
+    },
+    {
+      "file": "model-00004-of-00006.safetensors",
+      "bytes": 7629764366,
+      "sha256": "c83fa6f3d94189f53ecb48a9bcea33fb0d8b0f1ea9726a7c6c945e2db4c9429c"
+    },
+    {
+      "file": "model-00005-of-00006.safetensors",
+      "bytes": 8115608158,
+      "sha256": "e21badf37419d2213b78e4a150a024ac5e4ca742f4f258fb794ba6c73ba40bc5"
+    },
+    {
+      "file": "model-00006-of-00006.safetensors",
+      "bytes": 3424678506,
+      "sha256": "5e924ad8158bf358175549640eebb6783064f300203e2e3b1eb9c03d321ad7a6"
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "bytes": 32763270,
+      "sha256": "76413d05eb8c718458829e435644b44c9b023af7729c5448b5083938b58958a0"
+    },
+    {
+      "file": "ngram_embedding.safetensors",
+      "bytes": 19840121928,
+      "sha256": "df22ff91deeb91a58d6e1d566a993074f8d20a428aab9c9663b3d39258adcab0"
+    },
+    {
+      "file": "quantization_config.json",
+      "bytes": 96643118,
+      "sha256": "913478aae6835b373bfdd3da34d40d41e05852bc46ec15e180100518c951296e"
+    },
+    {
+      "file": "tokenizer.json",
+      "bytes": 12809320,
+      "sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+    }
+  ]
+}

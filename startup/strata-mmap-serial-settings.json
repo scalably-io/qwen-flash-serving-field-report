@@ -1,0 +1,61 @@
+{
+  "exe": "<BENCH_ROOT>/strata/build/strata",
+  "args": [
+    "--pack",
+    "<BENCH_ROOT>/packs/iq3_xxs",
+    "--native",
+    "<BENCH_ROOT>/models/gguf/IQ3_XXS/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00001-of-00002.gguf",
+    "--ple-gguf",
+    "<BENCH_ROOT>/models/gguf/IQ3_XXS/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_XXS-00002-of-00002.gguf",
+    "--expert-profile",
+    "<BENCH_ROOT>/strata/data/expert-profile.bin",
+    "--expert-cache",
+    "auto",
+    "--prefill",
+    "auto",
+    "--max-context",
+    "262144",
+    "--kv",
+    "int8",
+    "--kv-resident",
+    "32768",
+    "--vram-reserve-mib",
+    "1024",
+    "--trim-stage-weights",
+    "--conversation-cache-mib",
+    "32768",
+    "--conversation-cache-slots",
+    "16",
+    "--spec",
+    "4",
+    "--spec-min-p",
+    ".5",
+    "--mtp",
+    "<BENCH_ROOT>/mtp-shared/rt",
+    "--mmap-experts"
+  ],
+  "cwd": "<BENCH_ROOT>/strata",
+  "tokenizer": "<BENCH_ROOT>/packs/iq3_xxs/tokenizer",
+  "model_name": "strata-int8",
+  "log": "<BENCH_ROOT>/strata-mmap-serial-engine.log",
+  "lib_dirs": [
+    "/usr/local/cuda/lib64"
+  ],
+  "gpu": [
+    0,
+    1
+  ],
+  "layer_split": "24",
+  "parallel": 1,
+  "sampling": {
+    "temperature": 1,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0,
+    "repetition_penalty": 1
+  },
+  "host": "127.0.0.1",
+  "port": 18082,
+  "api_monitor": true,
+  "reasoning_budget_tokens": 4096
+}
